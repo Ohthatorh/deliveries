@@ -10,7 +10,7 @@ interface ITable {
 export const Table: FC<ITable> = ({ deliveries }) => {
   return (
     <div className="rounded-xl bg-tableBg border border-tableBorder mb-6 overflow-x-auto">
-      <table className="w-full table-fixed border-collapse min-w-max">
+      <table className="md:w-full table-fixed border-collapse min-w-max">
         <thead>
           <tr>
             <TableHeaderItem name="ID доставки" />
